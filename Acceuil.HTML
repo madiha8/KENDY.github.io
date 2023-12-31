@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Page Acceuil</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    *{
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+      font-family: century;
+    }
+
+    header{
+      height: 100vh;
+      background-image:linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6));
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url(3.jpg) no-repeat center ;
+      background-attachment: fixed;
+      background-size: cover;
+      background-blend-mode: darken;
+      
+    }
+
+   .logo{
+    color: #fff;
+   }
+
+   .logo img{
+      position: absolute;
+      margin-top: 10PX;
+      margin-left: 10PX;
+      width: 60PX;
+  
+
+      
+    }
+  
+   
+    ul{
+      list-style: none;
+      float: right;
+      display: flex;
+      margin-top: 0px;
+    }
+
+    ul li a{
+      text-decoration: none;
+      color: white;
+      padding: 10PX 20PX;
+      text-transform: uppercase;
+      border: 1PX solid transparent;
+      margin: 10px;
+      font-weight: 500;
+      transition: 0.6s ease;
+      
+      
+    }
+
+    ul li a:hover{
+      background: #fff;
+      color: #000;
+    }
+
+    ul li.active a{
+      background: #fff;
+      color: #000;
+    }
+    
+    .titre{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      
+    }
+    .titre h1{
+      color: #fff;
+      font-size: 50PX;
+
+
+    }
+    .button{
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .button a{
+      color: #fff;
+      text-decoration: none;
+      border: 1PX solid #fff;
+      padding: 10PX 20PX;
+
+    }
+    .btn{
+      transition: 0.6s ease;
+    }
+    .btn:hover{
+      background-color: #fff;
+      color: #000;
+    }
+   
+  </style>
+</head>
+<body>
+
+
+
+  <header>
+    <div class="logo">
+      <a href="#" ><img src="logo.png"><BR><span></span></a>
+    </div>
+    <ul>
+      <li class="active"><a href="index.HTML">Accueil</a></li>
+      <li><a href="Département.html">Départements</a></li>
+      <li><a href="Inscription.html">Inscription</a></li>
+      <li><a href="Espace Etudiant.html">Espace Etudiant</a></li>
+      <li><a href="Annonce.html">Annonce</a></li>
+    </ul>
+   
+  </header>
+  <div class="titre">
+    <h1> BIENVENU SUR NOTRE SITE </h1>
+  </div>
+  <div class="button">
+    <a href="#" class="btn">CONTACTEZ NOUS</a>
+  </div>
+
+ 
+
+
+
+</body>
+</html>
